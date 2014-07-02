@@ -40,3 +40,8 @@ gem 'spring',        group: :development
 group :development, :test do
 	gem 'rspec-rails'
 end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12facor'
+end
